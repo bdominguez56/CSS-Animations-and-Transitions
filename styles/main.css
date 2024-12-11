@@ -393,6 +393,17 @@ h3 {
     .hero h3 {
       font-size: 14px; } }
 
+      .btn-menu {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        background-color: #3498db;
+        color: white;
+        border-radius: 5px;
+        animation: bounceInDown 1s ease-out 2s both;
+      }
+
 /**
 
 - add animate.css library in your index.html
