@@ -404,6 +404,38 @@ h3 {
         animation: bounceInDown 1s ease-out 2s both;
       }
 
+      .card {
+        width: 200px;
+        height: 300px;
+        background-color: #3498db;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        transition: transform 0.3s ease; 
+      }
+      
+      
+      .card:hover {
+        transform: translateY(-20px); 
+      }
+
+      .card {
+        width: 200px;
+        height: 300px;
+        background-color: #3498db;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        transition: transform 0.2s ease; 
+      }
+      
+      .card:hover {
+        transform: translateY(-20px); 
+      }
 /**
 
 - add animate.css library in your index.html
